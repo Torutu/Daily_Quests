@@ -48,6 +48,9 @@ make fclean
 
 ```bash
 Daily_Quests/
+├── headers/
+│   ├── quests.hpp
+|   |── updateCSV.hpp
 ├── src/
 │   ├── main.cpp         # Main program logic
 │   ├── quests.cpp       # contains the quest array
