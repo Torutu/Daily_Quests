@@ -35,7 +35,7 @@ make fclean
 ## File Structure
 
 ```bash
-Daily_Quest_Tracker/
+Daily_Quests/
 ├── src/
 │   ├── main.cpp         # Main program logic
 │   ├── quests.cpp       # contains the quest array
