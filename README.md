@@ -48,12 +48,12 @@ make fclean
 
 ```bash
 Daily_Quests/
-├── headers/
+├── headers/             # Contains the header files
 │   ├── quests.hpp
 │   ├── updateCSV.hpp
 ├── src/
 │   ├── main.cpp         # Main program logic
-│   ├── quests.cpp       # contains the quest array
+│   ├── quests.cpp       # Contains the quest array
 │   ├── updateCSV.cpp    # Most of the program's logic
 ├── obj/                 # Object files will be stored here
 ├── Daily_Quest_Tracker  # Executable file
