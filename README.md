@@ -50,7 +50,7 @@ make fclean
 Daily_Quests/
 ├── headers/
 │   ├── quests.hpp
-|   |── updateCSV.hpp
+│   ├── updateCSV.hpp
 ├── src/
 │   ├── main.cpp         # Main program logic
 │   ├── quests.cpp       # contains the quest array
