@@ -43,7 +43,6 @@ make fclean
 ✅ CSV-based quest tracking *(Already Implemented)*  
 ⏳ **Graphical Progress Tracking with SFML** *(Coming Soon!)*  
 ⏳ **Quest Customization** *(Allow users to add/remove quests dynamically)*  
-⏳ **Improved Data Export** *(Generate summary reports from quest logs)*  
 
 ## File Structure
 
