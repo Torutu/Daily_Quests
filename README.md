@@ -12,8 +12,8 @@ The Daily Quest Tracker is a simple C++ application designed to help users manag
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/torutu/Daily_Quest_Tracker.git
-cd Daily_Quest_Tracker
+git clone git@github.com:Torutu/Daily_Quests.git
+cd Daily_Quests
 ```
 2. Build the project: The project uses a Makefile:
 ```bash
