@@ -71,12 +71,15 @@ void updateCSV(const std::string& day, const std::string quests[], int numQuests
         std::string answer;
         std::cout << "Did you complete the task: " << quests[i] << " (yes/no)? ";
         std::cin >> answer;
+        
+        std::transform(answer.begin(), answer.end(), answer.begin(),
+               [](unsigned char c) { return std::tolower(c); });
 
         // Color the output based on the answer
-        if (answer == "yes" || answer == "Yes" || answer == "y" || answer == "Y") {
+        if (answer == "yes" ||answer == "y") {
             std::cout << "\033[32mTRUE\033[0m" << std::endl;  // Green for TRUE
             data[i + 1][dayIndex] = "TRUE";  // Set TRUE if completed
-        } else if (answer == "no" || answer == "No" || answer == "n" || answer == "N") {
+        } else if (answer == "no" || answer == "n") {
             std::cout << "\033[31mFALSE\033[0m" << std::endl;  // Red for FALSE
             data[i + 1][dayIndex] = "FALSE";  // Set FALSE if not completed
         } else {
